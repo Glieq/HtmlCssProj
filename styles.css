@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(fonts/Gilroy-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url(fonts/Gilroy-Semibold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(fonts/Gilroy-Medium.woff) format('woff');
+}
+
+body {
+    font-family: "Gilroy-Bold";
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+}
+
+.header-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu li {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Gilroy-Semibold";
+}
+
+.header-menu-link-active {
+    font-family: "Gilroy-Semibold" !important;
+    color: #F25822;
+    text-decoration: none;
+}
+
+.header-menu-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-menu-link svg {
+    margin: 0 0 1px 4px;
+}
+
+.main-container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+.main-left-block-content {
+    width: 522px;
+}
+
+.heading {
+    color: #000000;
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.subtitle {
+    font-family: "Gilroy-Medium";
+    color: #888888;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 17px;
+}
+
+.main-buttons {
+    margin-top: 37px;
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-button {
+    text-decoration: none;
+    color: #fff;
+    line-height: 17px;
+    padding: 15px 36px;
+    background-color: #F25822;
+    border-radius: 50px;
+    box-shadow: 4px 4px #f2592211;
+}
+
+.main-button-video {
+    font-size: 15px;
+    line-height: 17px;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 270px auto 0 auto;
+}
