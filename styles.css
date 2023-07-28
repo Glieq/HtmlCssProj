@@ -18,6 +18,11 @@
     src: url(fonts/Gilroy-Medium.woff) format('woff');
 }
 
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url(fonts/Gilroy-Regular.woff) format('woff');
+}
+
 body {
     font-family: "Gilroy-Bold";
 }
@@ -114,6 +119,53 @@ body {
     font-size: 15px;
     line-height: 17px;
     color: #AAAAAA;
+    text-decoration: none;
+}
+
+.cards-container {
+    margin: 162px auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 370px;
+    height: 291px;
+    box-sizing: border-box;
+}
+
+.card-active {
+    width: 370px;
+    height: 291px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card-img {
+    padding: 30px 0 0 40px;
+}
+
+.card-title {
+    padding: 25px 0 0 29px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-subtitle {
+    padding: 17px 0 0 29px;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #666666;
+}
+
+.card-link {
+    padding: 25px 0 0 29px;
+    display: block;
+    font-size: 11px;
+    line-height: 16.5px;
+    color: #000;
     text-decoration: none;
 }
 
