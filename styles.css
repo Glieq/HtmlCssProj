@@ -123,7 +123,7 @@ body {
 }
 
 .cards-container {
-    margin: 162px auto;
+    margin: 162px auto 192px auto;
     width: 1170px;
     display: flex;
     justify-content: space-between;
@@ -169,10 +169,90 @@ body {
     text-decoration: none;
 }
 
+.services-description-container {
+    width: 682px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description-heading {
+    font-size: 45px;
+    line-height: 52.7px;
+    color: #000000;
+}
+
+.description-subtitle {
+    font-size: 16px;
+    font-family: "Gilroy-Regular";
+    line-height: 24px;
+    color: #666666;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 55px;
+}
+
+.services-cards-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.services-card {
+    width: 370px;
+    height: 549px;
+    box-sizing: border-box;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-card-title {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.services-card-subtitle {
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #AAAAAA;
+    padding-top: 22px;
+    width: 310px;
+    text-align: center;
+}
+
+.services-card-link {
+    display: block;
+    margin-top: 39px;
+    background-color: #F25822;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 19.5px;
+    padding: 15px 36px 15px 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px #f2592211;
+}
+
+.services-card-link svg {
+    margin-left: 6px;
+}
+
 .footer-container {
     display: flex;
     width: 1200px;
     justify-content: space-between;
     align-items: center;
-    margin: 270px auto 0 auto;
+    margin: 197px auto 96px auto;
 }
